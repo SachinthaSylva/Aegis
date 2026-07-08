@@ -44,7 +44,7 @@ function logPlayerAction(message) {
     const BufferedWriter = Java.loadClass('java.io.BufferedWriter');
     const PrintWriter = Java.loadClass('java.io.PrintWriter');
 
-    let logFile = new File('logs/playeractions.log');
+    let logFile = new File("logs/$playeractions.log");
     let timestamp = new Date().toISOString();
 
     try {
