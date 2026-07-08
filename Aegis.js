@@ -7,6 +7,6 @@ BlockEvents.placed('minecraft:sign', event => {
     console.info(`[Aegis - Sign Logger] Player ${player.name.getString()} placed a sign at X:${block.x} Y:${block.y} Z:${block.z}`);
     }
     else{
-    console.info('[Aegis - Sign Logger] A sign was placed at X:${block.x} Y:${block.y} Z:${block.z} by an unknown player. \nThis may be due to worldgen or commands placing the sign.')
+    console.info('[Aegis - Sign Logger] A sign was placed at X:${block.x} Y:${block.y} Z:${block.z} by an unknown player. \nThis may be due to worldgen or commands placing the sign.');
     }
 });
